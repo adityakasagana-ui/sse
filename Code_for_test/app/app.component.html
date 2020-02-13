@@ -1,0 +1,7 @@
+<div>List of Box</div>
+<div class="row" *ngFor="let item of boxjson; index as i;">
+  <div class="box" *ngIf="item.active">
+    <div>{{item.id}}</div>
+    <app-boxcomponent [boxJSON]="boxjson"></app-boxcomponent>
+  </div>
+</div>

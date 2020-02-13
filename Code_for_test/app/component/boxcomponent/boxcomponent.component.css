@@ -1,0 +1,11 @@
+.mainbox {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.mainbox button{
+    width: calc(50% - 10px);
+    height: 100px;
+    margin: 5px;
+}
